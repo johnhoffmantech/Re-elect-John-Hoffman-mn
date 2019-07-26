@@ -8,7 +8,13 @@ p{font-size: 1.25rem;}
 
 .navbar{color: #004a7c!important}
 
-.disclaimer{background-color: #002653; color: #fafafa; text-align: center;}
+.disclaimer{
+    background-color: #002653;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
 
 .fab{
     color: #fafafa;
@@ -27,6 +33,11 @@ footer{
     display: block;
     margin: 0 auto;
     padding: 5rem 15rem;
+}
+
+.endorsement-image{
+    width: 200px;
+    margin: 0.5rem;
 }
 
 #cover-image{
@@ -49,6 +60,10 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.75rem;
     margin: 1.75rem 0rem 0.5rem 1rem!important;
+}
+
+#endorsements-lists{
+    padding: 0 10rem;
 }
 
 .award-item{
@@ -74,6 +89,10 @@ footer{
     }
     .title-copy{
         font-size: 2rem;
+    }
+    .endorsement-image{
+        width: 220px;
+        margin: 2.5rem 0rem 0rem;
     }
 }
 
