@@ -4,7 +4,9 @@ article{background-color: #F3F0DD}
 
 .disclaimer, p{font-family: 'Open Sans', sans-serif}
 
-p{font-size: 1.25rem;}
+li, p{font-size: 1.25rem;}
+
+
 
 .navbar{color: #004a7c!important}
 
