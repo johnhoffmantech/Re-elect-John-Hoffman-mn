@@ -43,8 +43,10 @@ footer{
 }
 
 #cover-image{
+    width: 50%;
     display: block;
-    margin:0 auto;
+    margin: 0 auto 2rem;
+    
 }
 .title-copy{
     font-family: 'Open Sans', sans-serif;
@@ -83,6 +85,12 @@ footer{
     border-left: 5px solid #002653
 }
 
+#donate-button{
+    display: block;
+    margin: 2% auto 0;
+
+}
+
 @media only screen and (max-width: 991px){
     .fab{
         padding-left: 1rem!important;
@@ -102,6 +110,9 @@ footer{
         width: 220px;
         margin: 2.5rem 0rem 0rem;
     }
+    #cover-image{
+        width: 100%;
+        display: block;
+        margin:0 auto 1rem;
+    }
 }
-
-
