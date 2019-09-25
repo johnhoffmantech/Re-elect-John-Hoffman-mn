@@ -33,8 +33,9 @@ footer{
 
 #bottom-logo{
     display: block;
+    width: 70%;
     margin: 0 auto;
-    padding: 5rem 15rem;
+    padding: 2rem 15rem;
 }
 
 .endorsement-image{
