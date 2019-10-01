@@ -132,6 +132,12 @@ hr{
     /* width: 90%; */
 }
 
+.news-image{
+    display: block;
+    margin: 0rem auto 1rem;
+    width: 40%;
+}
+
 /* Phone Screens */
 @media only screen and (max-width: 991px){
     .fab{
@@ -169,6 +175,10 @@ hr{
 .news-card{
     margin: 0rem 0rem 2rem;
     width: 100%;
+}
+
+.news-image{
+    width: 90%;
 }
 
 }
