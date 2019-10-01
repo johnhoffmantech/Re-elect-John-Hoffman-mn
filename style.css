@@ -92,6 +92,22 @@ footer{
 
 }
 
+.issues-image{
+    display: block;
+    margin: 0rem auto 1rem;
+    width: 90%;
+}
+
+#education-header-photo{
+    display: block;
+    margin: 0rem auto 1rem;
+    width: 50%;
+}
+
+/* Ultrawide */
+
+
+/* Phone Screens */
 @media only screen and (max-width: 991px){
     .fab{
         padding-left: 1rem!important;
@@ -102,7 +118,7 @@ footer{
         padding-right: 1rem;
     }
     #bottom-logo{
-        padding: 5rem 5rem;
+        padding: 1rem 1rem;
     }
     .title-copy{
         font-size: 2rem;
@@ -116,4 +132,9 @@ footer{
         display: block;
         margin:0 auto 1rem;
     }
+
+    #education-header-photo{
+        width: 80%;
+    }
+
 }
