@@ -98,7 +98,7 @@ footer{
     width: 90%;
 }
 
-#education-header-photo{
+#education-header-photo, #jobs-header-photo{
     display: block;
     margin: 0rem auto 1rem;
     width: 50%;
@@ -138,6 +138,7 @@ hr{
     width: 40%;
 }
 
+
 /* Phone Screens */
 @media only screen and (max-width: 991px){
     .fab{
@@ -164,21 +165,21 @@ hr{
         margin:0 auto 1rem;
     }
 
-    #education-header-photo{
+    #education-header-photo, #jobs-header-photo{
         width: 80%;
     }
 
-.justify-content-around{
-    flex-direction: column;
-}
-
-.news-card{
-    margin: 0rem 0rem 2rem;
-    width: 100%;
-}
-
-.news-image{
-    width: 90%;
-}
+    .justify-content-around{
+        flex-direction: column;
+    }
+    
+    .news-card{
+        margin: 0rem 0rem 2rem;
+        width: 100%;
+    }
+    
+    .news-image{
+        width: 90%;
+    }
 
 }
